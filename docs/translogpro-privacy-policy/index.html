@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TransLog Pro Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for TransLog Pro" />
+  <style>
+    :root {
+      --bg: #0f0907;
+      --bg-soft: #20120d;
+      --card: rgba(255, 248, 242, 0.92);
+      --text: #1c1b1a;
+      --muted: #6a625c;
+      --accent: #cc7a37;
+      --accent-2: #1cb88a;
+      --border: rgba(204, 122, 55, 0.16);
+      --shadow: 0 24px 60px rgba(0, 0, 0, 0.24);
+      --radius: 24px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top right, rgba(28,184,138,0.10), transparent 30%),
+        radial-gradient(circle at top left, rgba(204,122,55,0.18), transparent 35%),
+        linear-gradient(135deg, var(--bg), var(--bg-soft));
+      min-height: 100vh;
+    }
+
+    .shell {
+      width: min(980px, calc(100% - 32px));
+      margin: 32px auto;
+      padding: 24px;
+    }
+
+    .hero {
+      border: 1px solid rgba(255,255,255,0.10);
+      border-radius: 28px;
+      padding: 28px;
+      background: rgba(19, 11, 8, 0.62);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(12px);
+      color: #fff8f2;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.10);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1.8px;
+      text-transform: uppercase;
+    }
+
+    .hero h1 {
+      margin: 18px 0 10px;
+      font-size: clamp(34px, 5vw, 58px);
+      line-height: 0.98;
+      letter-spacing: -1.5px;
+    }
+
+    .hero p {
+      margin: 0;
+      max-width: 720px;
+      font-size: 18px;
+      line-height: 1.6;
+      color: rgba(255, 248, 242, 0.82);
+    }
+
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .badge {
+      padding: 10px 14px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 700;
+      border: 1px solid transparent;
+    }
+
+    .badge.a { background: rgba(28,184,138,0.16); color: #93f2d2; border-color: rgba(28,184,138,0.24); }
+    .badge.b { background: rgba(204,122,55,0.16); color: #f4c79d; border-color: rgba(204,122,55,0.24); }
+    .badge.c { background: rgba(255,255,255,0.08); color: #fff; border-color: rgba(255,255,255,0.14); }
+
+    .card {
+      margin-top: 20px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .card-inner {
+      padding: 28px;
+    }
+
+    .lang-nav {
+      display: flex;
+      gap: 10px;
+      padding: 18px 24px 0;
+      flex-wrap: wrap;
+    }
+
+    .lang-nav a {
+      text-decoration: none;
+      color: var(--text);
+      background: #fff;
+      border: 1px solid rgba(0,0,0,0.08);
+      border-radius: 999px;
+      padding: 10px 14px;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    h2 {
+      margin: 0 0 8px;
+      font-size: 28px;
+      line-height: 1.1;
+    }
+
+    h3 {
+      margin: 26px 0 10px;
+      font-size: 20px;
+      line-height: 1.25;
+    }
+
+    p, li {
+      font-size: 16px;
+      line-height: 1.7;
+      color: var(--text);
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    ul {
+      margin: 10px 0 0;
+      padding-left: 20px;
+    }
+
+    .divider {
+      height: 1px;
+      margin: 30px 0;
+      background: linear-gradient(90deg, transparent, rgba(0,0,0,0.12), transparent);
+    }
+
+    .footer {
+      padding: 22px 28px 28px;
+      color: rgba(255,255,255,0.66);
+      text-align: center;
+      font-size: 13px;
+    }
+
+    code {
+      background: rgba(0,0,0,0.06);
+      padding: 2px 6px;
+      border-radius: 8px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.95em;
+    }
+
+    @media (max-width: 720px) {
+      .shell { width: min(100%, calc(100% - 20px)); margin: 10px auto 24px; padding: 0; }
+      .hero, .card-inner { padding: 22px; }
+      .lang-nav { padding: 16px 18px 0; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <div class="eyebrow">TransLog Pro • Privacy Policy</div>
+      <h1>Privacy Policy</h1>
+      <p>
+        This page contains the Turkish and English privacy policy for TransLog Pro.
+        It is intended for users, Google Play, and Google Cloud branding verification.
+      </p>
+      <div class="badges">
+        <div class="badge a">Google Sign-In</div>
+        <div class="badge b">Google Drive appDataFolder</div>
+        <div class="badge c">In-app Premium Features</div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="lang-nav">
+        <a href="#tr">Türkçe</a>
+        <a href="#en">English</a>
+      </div>
+
+      <div class="card-inner">
+        <section id="tr">
+          <h2>Türkçe</h2>
+          <p class="muted">Son Güncelleme Tarihi: 5 Nisan 2026</p>
+
+          <p>
+            TransLog Pro olarak gizliliğinize önem veriyoruz. Bu Gizlilik Politikası, mobil uygulamamız üzerinden hangi verilerin işlendiğini,
+            bu verilerin nasıl kullanıldığını ve nasıl korunduğunu açıklar.
+          </p>
+          <p>
+            TransLog Pro, sürücülerin ve taşımacılık işiyle ilgilenen kullanıcıların sefer, mesafe, belge, fotoğraf, imza ve rapor kayıtlarını düzenli şekilde tutabilmesi için geliştirilmiştir.
+          </p>
+
+          <h3>1. Toplanan Veriler</h3>
+          <p>Uygulama aşağıdaki verileri işleyebilir:</p>
+          <ul>
+            <li>Google hesap bilgileri</li>
+            <li>Sürücü adı ve soyadı</li>
+            <li>Araç plakaları</li>
+            <li>Sefer bilgileri</li>
+            <li>Başlangıç ve bitiş mesafesi</li>
+            <li>Taşıma türü ve taşıma detayları</li>
+            <li>Fotoğraflar</li>
+            <li>Dijital imza</li>
+            <li>Ek gider fişleri</li>
+            <li>PDF rapor çıktıları</li>
+            <li>Uygulama ayarları</li>
+            <li>Dil, tema ve mesafe birimi tercihleri</li>
+          </ul>
+
+          <h3>2. Google Hesabı ile Giriş</h3>
+          <p>
+            TransLog Pro, kullanıcı girişi için Google hesabı kullanır. Google ile giriş yapıldığında,
+            hesabınızla ilişkili temel bilgiler kimlik doğrulama ve hesabınızı uygulama içinde tanımak amacıyla kullanılabilir.
+          </p>
+          <p>
+            Uygulama, Google hesabınızı yalnızca oturum açma ve size ait verileri hesabınızla ilişkilendirme amacıyla kullanır.
+          </p>
+
+          <h3>3. Verilerin Saklanması</h3>
+          <p>
+            TransLog Pro’daki kullanıcı verileri, kullanıcının kendi Google Drive alanındaki uygulamaya özel <code>appDataFolder</code> içinde saklanabilir.
+            Bu alan yalnızca uygulama tarafından erişilebilir, diğer kullanıcılar veya üçüncü taraf uygulamalar tarafından görülemez ve kullanıcıya ait Google Drive depolama alanını kullanabilir.
+          </p>
+          <p>Uygulama ayrıca bazı verileri cihaz üzerinde yerel olarak da saklayabilir.</p>
+
+          <h3>4. Verilerin Kullanım Amaçları</h3>
+          <ul>
+            <li>Sefer kayıtlarının oluşturulması ve düzenlenmesi</li>
+            <li>Fotoğraf, belge ve imza kayıtlarının saklanması</li>
+            <li>PDF raporları ve sefer çıktıları oluşturulması</li>
+            <li>Verilerin cihazlar arasında senkronize edilmesi</li>
+            <li>Kullanıcı tercihleri ve uygulama ayarlarının korunması</li>
+            <li>Premium özelliklerin yönetilmesi</li>
+            <li>Uygulamanın güvenli ve doğru çalışmasının sağlanması</li>
+          </ul>
+
+          <h3>5. Veri Paylaşımı</h3>
+          <p>TransLog Pro, kullanıcı verilerini reklam satışı amacıyla üçüncü taraflarla paylaşmaz.</p>
+          <p>Veriler yalnızca aşağıdaki sınırlı durumlarda üçüncü taraflara aktarılabilir:</p>
+          <ul>
+            <li>Kullanıcının kendi Google hesabı ve Google Drive altyapısı üzerinden saklama ve senkronizasyon</li>
+            <li>Yasal zorunluluklar</li>
+            <li>Kullanıcı tarafından açıkça başlatılan paylaşım işlemleri</li>
+          </ul>
+
+          <h3>6. Fotoğraflar, Belgeler ve İmzalar</h3>
+          <p>
+            Uygulama, kullanıcı tarafından eklenen fotoğrafları, belgeleri, barkodlu evrak görsellerini, gider fişlerini ve dijital imzaları
+            yalnızca sefer kayıtlarının tutulması ve raporlanması amacıyla işler.
+          </p>
+          <p>Bu içerikler reklam, profil çıkarma veya kullanıcı davranışı analizi amacıyla kullanılmaz.</p>
+
+          <h3>7. Premium Özellikler ve Ödeme</h3>
+          <p>
+            TransLog Pro, uygulama içinde premium özellikler sunabilir. Satın alma işlemleri Google Play Billing altyapısı üzerinden gerçekleştirilir.
+            Ödeme bilgileri doğrudan TransLog Pro tarafından tutulmaz. Bu bilgiler Google Play tarafından işlenir.
+          </p>
+
+          <h3>8. Veri Güvenliği</h3>
+          <p>
+            Kullanıcı verilerini korumak için makul teknik ve organizasyonel önlemler uygulanır.
+            Ancak internet üzerinden iletilen veya üçüncü taraf platformlarda saklanan hiçbir verinin tamamen risksiz olduğu garanti edilemez.
+          </p>
+
+          <h3>9. Veri Silme</h3>
+          <p>Kullanıcılar uygulamadaki kayıtlarını silebilir, uygulamayı cihazlarından kaldırabilir, Google hesabı bağlantısını sonlandırabilir ve Google Drive içindeki uygulama verilerini silebilir.</p>
+
+          <h3>10. Çocukların Gizliliği</h3>
+          <p>TransLog Pro, çocuklara yönelik olarak tasarlanmamıştır. Uygulama bilerek çocuklardan kişisel veri toplamaz.</p>
+
+          <h3>11. Üçüncü Taraf Hizmetler</h3>
+          <ul>
+            <li>Google Sign-In</li>
+            <li>Google Drive API</li>
+            <li>Google Play Billing</li>
+          </ul>
+
+          <h3>12. Politika Değişiklikleri</h3>
+          <p>
+            Bu Gizlilik Politikası zaman zaman güncellenebilir. Güncellenen sürüm uygulama içinde, ilgili bağlantılarda veya yayın sayfasında paylaşılabilir.
+            Uygulamayı kullanmaya devam etmeniz, güncel politikayı kabul ettiğiniz anlamına gelir.
+          </p>
+
+          <h3>13. İletişim</h3>
+          <p>Bu Gizlilik Politikası hakkında sorularınız için aşağıdaki e-posta adresi üzerinden iletişime geçebilirsiniz:</p>
+          <p><strong>support@translogpro.app</strong></p>
+        </section>
+
+        <div class="divider"></div>
+
+        <section id="en">
+          <h2>English</h2>
+          <p class="muted">Last Updated: April 5, 2026</p>
+
+          <p>
+            At TransLog Pro, we value your privacy. This Privacy Policy explains what data may be processed through our mobile application,
+            how that data is used, and how it is protected.
+          </p>
+          <p>
+            TransLog Pro is designed to help drivers and transportation-related users keep organized records of trips, distance, documents, photos, signatures, and reports.
+          </p>
+
+          <h3>1. Data We May Collect</h3>
+          <p>The app may process the following data:</p>
+          <ul>
+            <li>Google account information</li>
+            <li>Driver first and last name</li>
+            <li>Vehicle license plates</li>
+            <li>Trip information</li>
+            <li>Starting and ending distance values</li>
+            <li>Transport type and transport details</li>
+            <li>Photos</li>
+            <li>Digital signature</li>
+            <li>Extra expense receipts</li>
+            <li>PDF report outputs</li>
+            <li>App settings</li>
+            <li>Language, theme, and distance unit preferences</li>
+          </ul>
+
+          <h3>2. Sign In with Google</h3>
+          <p>
+            TransLog Pro uses Google Sign-In for user authentication. When you sign in with Google,
+            basic account-related information may be used to authenticate your identity and recognize your account within the app.
+          </p>
+          <p>Your Google account is used only for sign-in and for associating your data with your own account.</p>
+
+          <h3>3. Data Storage</h3>
+          <p>
+            User data in TransLog Pro may be stored in the app-specific <code>appDataFolder</code> area of the user’s own Google Drive account.
+            This area is accessible only by the app, is not visible to other users or third-party apps, and may use the storage quota of the user’s Google Drive account.
+          </p>
+          <p>The app may also store certain data locally on the device.</p>
+
+          <h3>4. How We Use Data</h3>
+          <ul>
+            <li>Creating and editing trip records</li>
+            <li>Storing photos, documents, and signatures</li>
+            <li>Generating PDF reports and trip documents</li>
+            <li>Synchronizing data across devices</li>
+            <li>Preserving user preferences and app settings</li>
+            <li>Managing premium features</li>
+            <li>Ensuring the secure and correct operation of the app</li>
+          </ul>
+
+          <h3>5. Data Sharing</h3>
+          <p>TransLog Pro does not sell or share user data with third parties for advertising purposes.</p>
+          <p>Data is not transferred to third parties except in the following limited cases:</p>
+          <ul>
+            <li>Storage and synchronization through the user’s own Google account and Google Drive infrastructure</li>
+            <li>Legal obligations</li>
+            <li>Actions explicitly initiated by the user</li>
+          </ul>
+
+          <h3>6. Photos, Documents, and Signatures</h3>
+          <p>
+            The app processes user-added photos, documents, barcode-related images, expense receipts, and digital signatures
+            only for trip record keeping and reporting purposes.
+          </p>
+          <p>This content is not used for advertising, profiling, or behavioral analysis.</p>
+
+          <h3>7. Premium Features and Payments</h3>
+          <p>
+            TransLog Pro may offer premium features within the app. Purchases are processed through Google Play Billing.
+            Payment information is not stored directly by TransLog Pro. Such information is processed by Google Play.
+          </p>
+
+          <h3>8. Data Security</h3>
+          <p>
+            Reasonable technical and organizational measures are used to help protect user data.
+            However, no method of transmission over the internet or storage through third-party platforms can be guaranteed to be completely secure.
+          </p>
+
+          <h3>9. Data Deletion</h3>
+          <p>Users may delete records within the app, remove the app from their device, disconnect their Google account, and delete app data stored in Google Drive.</p>
+
+          <h3>10. Children’s Privacy</h3>
+          <p>TransLog Pro is not designed for children. The app does not knowingly collect personal data from children.</p>
+
+          <h3>11. Third-Party Services</h3>
+          <ul>
+            <li>Google Sign-In</li>
+            <li>Google Drive API</li>
+            <li>Google Play Billing</li>
+          </ul>
+
+          <h3>12. Changes to This Policy</h3>
+          <p>
+            This Privacy Policy may be updated from time to time. The updated version may be shared within the app,
+            through related links, or on the app’s public listing page. Continued use of the app means you accept the updated policy.
+          </p>
+
+          <h3>13. Contact</h3>
+          <p>If you have any questions about this Privacy Policy, you may contact us at:</p>
+          <p><strong>support@translogpro.app</strong></p>
+        </section>
+      </div>
+    </section>
+
+    <div class="footer">
+      TransLog Pro • Privacy Policy
+    </div>
+  </main>
+</body>
+</html>
